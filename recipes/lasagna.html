@@ -4,28 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipe | Easy Lasagna</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Easy Lasagna</h1>
-    <img src="../images/lasagna.jpg" alt="baked lasagna">
-    <h2>Description</h2>
-    <p>Use my easy "mathematical method" for cooking prime rib, and you'll be rewarded with the best prime rib that's perfectly pink and delicious. For the math to work, you must leave the beef out at room temperature for at least 6 hours.</h2>
-    <ul>
-        <li>Beef</li>
-        <li>Spaghetti sauce</li>
-        <li>Cheeses</li>
-        <li>Eggs</li>
-        <li>Seasonings</li>
-        <li>Lasagna noodles</li>
-        <li>Water</li>
-    </ul>
-    <h2>Steps</h2>
-    <ol>
-        <li>Cook and drain the ground beef, then stir in the spaghetti sauce and simmer. </li>
-        <li>Combine the cottage cheese, 2 cups of mozzarella, eggs, half of the Parmesan, and seasonings.</li>
-        <li>Assemble the lasagna according to the detailed recipe.</li>
-        <li>Bake, covered, for 45 minutes. </li>
-        <li>Uncover and continue baking for 10 minutes.</li>
-    </ol>
+    <div class="recipe">
+		<h1 class="title">Easy Lasagna</h1>
+    	<img class="image" src="../images/lasagna.jpg" alt="baked lasagna">
+    </div>
+	<div class="desc">
+		<h2 class="desc-heading">Description</h2>
+    	<p class="desc-content">Use my easy "mathematical method" for cooking prime rib, and you'll be rewarded with the best prime rib that's perfectly pink and delicious. For the math to work, you must leave the beef out at room temperature for at least 6 hours.</p>
+    </div>
+	<div class="ingredients">
+		<h2 class="ingredients-heading">Ingredients</h2>
+    	<ul class="recipe__list">
+        	<li class="recipe__item">Beef</li>
+        	<li class="recipe__item">Spaghetti sauce</li>
+        	<li class="recipe__item">Cheeses</li>
+        	<li class="recipe__item">Eggs</li>
+        	<li class="recipe__item">Seasonings</li>
+        	<li class="recipe__item">Lasagna noodles</li>
+        	<li class="recipe__item">Water</li>
+    	</ul>
+	</div>
+    <div class="steps">
+		<h2 class="steps-heading">Steps</h2>
+    	<ol class="recipe__list">
+        	<li class="recipe__item">Cook and drain the ground beef, then stir in the spaghetti sauce and simmer. </li>
+        	<li class="recipe__item">Combine the cottage cheese, 2 cups of mozzarella, eggs, half of the Parmesan, and seasonings.</li>
+        	<li class="recipe__item">Assemble the lasagna according to the detailed recipe.</li>
+        	<li class="recipe__item">Bake, covered, for 45 minutes. </li>
+        	<li class="recipe__item">Uncover and continue baking for 10 minutes.</li>
+    	</ol>
+	</div>
 </body>
 </html>

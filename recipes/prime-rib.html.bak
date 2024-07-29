@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Recipe | Chef John's Perfect Prime Rib</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Chef John's Perfect Prime Rib</h1>
+    <img src="../images/prime-rib.jpg" alt="cooked prime">
+    <h2>Description</h2>
+    <p>Use my easy "mathematical method" for cooking prime rib, and you'll be rewarded with the best prime rib that's perfectly pink and delicious. For the math to work, you must leave the beef out at room temperature for at least 6 hours.</p>
+    <h2>Ingredients</h2>
+    <ul>
+        <li>1 (4 pound) bone-in prime rib roast (room temperature)</li>
+        <li>¼ cup unsalted butter, softened</li>
+        <li>1 tablespoon freshly ground black pepper</li>
+        <li>1 teaspoon herbes de Provence</li>
+        <li>kosher salt to taste</li>
+    </ul>
+    <h2>Steps</h2>
+    <ol>
+        <li>Gather the ingredients. Place prime rib roast on a plate and bring to room temperature, 2 to 4 hours. Preheat the oven to 500 degrees F (260 degrees C).</li>
+        <li>Combine butter, pepper, and herbes de Provence in a bowl; mix until well blended. Spread butter mixture evenly over entire roast. Season roast generously with kosher salt.</li>
+        <li>Roast the 4-pound roast in the preheated oven for 20 minutes. (If your roast is larger or smaller than 4 pounds, multiply the exact weight times 5 minutes.)</li>
+        <li>Turn the oven off and, leaving the roast in the oven with the door closed, let the roast sit in the oven for 2 hours.</li>
+        <li>Remove roast from the oven, slice, and serve.</li>
+    </ol>
+</body>
+</html>

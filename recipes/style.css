@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    display: grid;
+    min-height: 100svh;
+    place-content: center;
+}
+
+div + div {
+    margin-block-start: 2rem;
+}
+
+div > * + * {
+    margin-block-start: 1.2rem;
+    padding-inline-start: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.image {
+    max-width: 100%;
+    width: 500px;
+    display: block;
+}
+
+.ingredients .recipe__list {
+    list-style: none;
+}
+
+.steps .recipe__list {
+    list-style-position: inside;
+}
+
+.recipe__item + .recipe__item {
+    margin-block-start: 0.5rem;
+}
