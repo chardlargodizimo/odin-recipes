@@ -13,25 +13,67 @@ body {
     place-content: center;
 }
 
+.wrapper {
+    max-width: 90rem;
+    margin: 1.25rem;
+}
+
 .title {
     font-size: 2.5rem;
     padding: 1em;
+    text-align: center;
 }
 
 .recipe {
+    display: inline-flex;
     font-size: 1.25rem;
 }
 
+.recipe > * + * {
+    margin-left: 3.5rem;
+}
+
 .recipe__item {
-    padding: 1em;
-    border: 1px solid rgb(33, 65, 60);
+    background-color: hsl(180, 43%, 43%);
+    color: hsl(0, 0%, 100%);
     list-style: none;
 }
 
-.recipe__item + .recipe__item {
-    margin-block-start: 2rem;
+.recipe__image {
+    display: block;
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+}
+
+.recipe__content {
+    padding: 1rem;
 }
 
 .recipe__link {
+    display: block;
+    color: inherit;
     text-decoration: none;
+}
+
+.recipe__link,
+.prep {
+    margin: 1.25rem 0;
+    padding: 0 1.25rem;
+}
+
+.prep {
+    display: flex;
+    align-items: center;
+}
+
+.icon-timer {
+    max-width: 100%;
+    width: 20px;
+    filter: invert();
+}
+
+.time {
+    font-size: 1rem;
+    margin-left: 4px;
 }
